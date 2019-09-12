@@ -5,7 +5,7 @@ from an Empatica E4 wristband via a
 and write it to 7 different files. One for each recorded parameter.
 
 ## Requirement
-This module depends on [empatica_e4_msgs](https://github.com/hyeonukbhin/empatica_e4_msgs).
+This module depends on [empatica_e4_msgs](https://github.com/MonicaPH/empatica_e4_msgs).
 
 ## Setup
 ```
