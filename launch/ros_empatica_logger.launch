@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- load katana urdf -->
+  <node name="empatica_logger" pkg="ros_empatica_logger" type="logger" respawn="true" output="screen"/>
+</launch>
+
