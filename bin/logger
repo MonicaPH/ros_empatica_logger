@@ -1,0 +1,10 @@
+#! /usr/bin/env python
+
+import rospy
+import ros_empatica_logger.logger
+
+if __name__ == '__main__':
+    try:
+        ros_empatica_logger.logger.listener()
+    except rospy.ROSInterruptException:
+        print('ros_empatica_logger got interrupted')
