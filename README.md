@@ -8,14 +8,14 @@ and write it to 7 different files. One for each recorded parameter.
 This module depends on [empatica_e4_msgs](https://github.com/hyeonukbhin/empatica_e4_msgs).
 
 ## Setup
-'''
+```
 cd catkin/src
 git clone https://github.com/MonicaPH/ros_empatica_logger.git
 cd ..
 catkin_make
-'''
+```
 
 ## Run
-'''
+```
 rosrun ros_empatica_logger logger
-'''
+```
